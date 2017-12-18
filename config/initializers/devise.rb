@@ -247,6 +247,15 @@ Devise.setup do |config|
   # The default HTTP method used to sign out a resource. Default is :delete.
   config.sign_out_via = :delete
 
+  # ==> Configuration for :Zxcvbnable
+  # How strong the password should be (the higher, the stronger)
+  # 0 - estimated cracking time is less than 10 ** 2 seconds
+  # 1 - 10 ** 4 seconds
+  # 2 - 10 ** 6 seconds
+  # 3 - 10 ** 9 seconds
+  # 4 - infinity (considering a couple of centuries as infinity)
+  config.min_password_score = 1
+
   # ==> OmniAuth
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.

@@ -22,6 +22,8 @@ gem 'uglifier', '>= 3.2.0'
 # gem 'therubyracer', platforms: :ruby
 # Use devise for user authentication
 gem 'devise', '>= 3.4.1'
+# Use Devise Zxcvbn extension for password strength measurement
+gem 'devise_zxcvbn'
 gem 'jquery-rails', '>= 4.3.1'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '>= 4.2'
